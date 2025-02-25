@@ -11,3 +11,9 @@ export type Answer = {
 }
 
 export type StateQuiz = "init" | "in-course" | "end"
+
+export type ResultsQuestions = {
+    orderAnswers: number[];
+    selectedAnswer: number;
+    correctAnswer: number;
+}
